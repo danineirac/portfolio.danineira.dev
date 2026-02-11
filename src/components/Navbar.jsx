@@ -38,12 +38,8 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-neon transition">
             Proyectos
           </a>
-          <a
-            href="/Dani_Neira_CV_v2.pdf"
-            download
-            className="hover:text-neon transition"
-            >
-            CV
+          <a href="#Contact" className="hover:text-neon transition">
+            Contacto
           </a>
         </div>
       </div>

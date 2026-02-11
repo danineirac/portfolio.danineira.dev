@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+:root {
+  --bg-color: #020d31;        /* fondo oscuro */
+  --text-color: #e5e7eb;      /* texto claro */
+  --title-color: #ffffff;    /* títulos */
+  --accent-color: #2563eb;   /* azul futurista */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}

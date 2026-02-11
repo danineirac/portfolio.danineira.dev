@@ -22,9 +22,12 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="font-bold text-lg text-neon">
-          DN.dev
+          <img 
+            src="/dndev-logo.png" 
+            alt="dn.dev logo"
+            className="h-10 w-auto"
+          />
         </span>
-
         <div className="flex gap-6 text-sm">
           <a href="#home" className="hover:text-neon transition">
             Inicio

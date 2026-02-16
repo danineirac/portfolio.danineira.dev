@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer class="bg-gray-100 dark:bg-black">
-      <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-        <div class="flex justify-center text-teal-600 dark:text-teal-300">
+    <footer classname=" dark:bg-black">
+      <div classname="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+        <div classname="flex justify-center text-teal-600 dark:text-teal-300">
           <img 
             src="/dndev-logo.png" 
             alt="dn.dev logo"

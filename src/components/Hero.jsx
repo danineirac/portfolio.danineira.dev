@@ -13,7 +13,7 @@ export default function Hero() {
       id="home"
       className="h-screen flex items-center justify-center relative overflow-hidden"
     >
-      {/* Glow background */}
+      
      <div className="absolute w-96 h-96 bg-neon/20 blur-3xl rounded-full" />
 
       <div

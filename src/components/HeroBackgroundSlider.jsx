@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
 const slides = [
-    "/public/Tech1.jpg",
-    "/public/Tech2.jpg",
-    "/public/Tech3.jpg",
+  "/Tech1.jpg",
+  "/Tech2.jpg",
+  "/Tech3.jpg",
 ]
 
 export default function HeroBackgroundSlider() {
@@ -34,8 +34,7 @@ export default function HeroBackgroundSlider() {
                 </div>
             ))}
             
-            {/* Overlay superior oscuro */}
-            <div className="absolute inset-0 bg-black/0.3 backdrop-blur-sm" />
+
 
             {/* Gradiente inferior hacia el background */}
             <div className="absolute inset-0 bg-linear-to-b 

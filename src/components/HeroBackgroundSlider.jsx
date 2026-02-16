@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
 const slides = [
-    "/Public/Tech1.jpg",
-    "/Public/Tech2.jpg",
-    "/Public/Tech3.jpg",
+    "/public/Tech1.jpg",
+    "/public/Tech2.jpg",
+    "/public/Tech3.jpg",
 ]
 
 export default function HeroBackgroundSlider() {

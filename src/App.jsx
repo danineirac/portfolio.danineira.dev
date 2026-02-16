@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import HeroBackgroundSlider from "./components/HeroBackgroundSlider"
 import About from "./components/About"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
@@ -7,10 +8,12 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
 
+
 export default function App() {
   return (
     <div className="bg-bg text-soft min-h-screen ">
       <Navbar />
+      <HeroBackgroundSlider/>
       <Hero />
       <About />
       <Experience />

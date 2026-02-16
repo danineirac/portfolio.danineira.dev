@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+
 export default function Hero() {
   const [visible, setVisible] = useState(false)
 
@@ -13,7 +14,7 @@ export default function Hero() {
       className="h-screen flex items-center justify-center relative overflow-hidden"
     >
       {/* Glow background */}
-      <div className="absolute w-[500px] h-[500px] bg-neon/20 blur-[120px] rounded-full" />
+     <div className="absolute w-96 h-96 bg-neon/20 blur-3xl rounded-full" />
 
       <div
         className={`z-10 text-center transition-all duration-1000 ${
@@ -30,22 +31,37 @@ export default function Hero() {
         <p className="text-muted text-lg md:text-xl max-w-xl mx-auto mb-8">
           Ingeniero de Sistemas · Desarrollo · Automatización · IA
         </p>
+
+        
         
         <a
-          href="#projects"
-          className="inline-block px-8 py-3 rounded-xl bg-neon text-bg font-semibold
-                     hover:bg-neondark transition shadow-lg shadow-neon/40"
+          href="#Projects"
+          download
+          className="mr-8 relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-semibold rounded-xl group bg-[#020d31] border border-[#00f0ff] shadow-[0_0_12px_#00f0ff] transition-all duration-300"
         >
-          Ver proyectos
+          {/* Fondo animado hover */}
+          <span className="absolute inset-0 w-full h-full bg-[#ffffff] -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out rounded-xl"></span>
+
+          {/* Texto */}
+          <span className="relative text-[#00f0ff] group-hover:text-black transition-colors duration-300">
+             Proyectos TI
+          </span>
         </a>
+
         <a
           href="/Dani_Neira_CV_v2.pdf"
           download
-          className="inline-block px-8 py-3 rounded-xl bg-neon text-bg font-semibold
-                     hover:bg-neondark transition shadow-lg shadow-neon/40"
+          className="relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-semibold rounded-xl group bg-[#020d31] border border-[#00f0ff] shadow-[0_0_12px_#00f0ff] transition-all duration-300"
         >
-          Descargar CV
+          {/* Fondo animado hover */}
+          <span className="absolute inset-0 w-full h-full bg-[#ffffff] -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out rounded-xl"></span>
+
+          {/* Texto */}
+          <span className="relative text-[#00f0ff] group-hover:text-black transition-colors duration-300">
+            Descargar CV
+          </span>
         </a>
+
       </div>
     </section>
   )

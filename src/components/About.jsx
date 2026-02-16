@@ -5,9 +5,12 @@ export default function About() {
         Sobre mí
       </h2>
       <p className="text-muted">
-        Ingeniero de sistemas con experiencia en soporte TIC, automatización,
-        desarrollo web, análisis de datos y soluciones tecnológicas
-        orientadas a eficiencia empresarial.
+        Ingeniero de Sistemas con 11 años construyendo soluciones tecnológicas que automatizan procesos,
+        optimizan operaciones y generan impacto real en el negocio. Me especializo en desarrollo web moderno, 
+        automatización inteligente, análisis de datos y ciberseguridad aplicada. <br></br><br></br>
+
+        Disfruto transformar ideas en productos funcionales, escalables y eficientes, combinando visión estratégica con ejecución técnica. 
+        Mi enfoque está en crear tecnología que no solo funcione, sino que impulse crecimiento, innovación y ventaja competitiva.
       </p>
     </section>
   )

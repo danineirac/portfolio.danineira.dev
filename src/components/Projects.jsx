@@ -1,17 +1,11 @@
 const projects = [
-  {
-    title: "Automatización de Leads",
-    desc: "Flujo completo de gestión de clientes con WhatsApp, tipificación automática y reportes.",
-    tech: ["React", "Node", "SQL", "WhatsApp API"],
-    image: "/images/leads.jpg",
-    link: "#",
-  },
-  {
-    title: "IA Empresarial",
-    desc: "IA en Python para análisis de datos, generación de insights y reportes gráficos.",
-    tech: ["Python", "Pandas", "IA", "BigQuery"],
-    image: "/images/leads.jpg",
-    link: "#",
+
+    {
+    title: "Biodiversidad",
+    desc: "Desarrollo Web realizado en BootCamp Talento Tech, acerca de la Biodiversidad de Boyacá y Cundinamarca, con Consumo de Api de especies y mapa interactivo de Colombia",
+    tech: ["Python", "FastApi", "Bootstrap", "HTML5", "Javascript"],
+    image: "/img-projects/biodiversidad.jpg",
+    link: "https://github.com/JimmyEuscategui/Biodiversidad",
   },
   {
     title: "Portafolio Personal",
@@ -30,7 +24,7 @@ const projects = [
   {
     title: "Sitio Web DII Santoto Tunja",
     desc: "Diseño de Sitio web para la Dirección de Investigación e Innovación Santoto Tunja.",
-    tech: ["Wordpress", "CSS3", "PHP", "HTML5"],
+    tech: ["Wordpress", "CSS3", "Javascript", "PHP", "HTML5"],
     image: "/img-projects/dii.jpg",
     link: "https://investigacion.santototunja.edu.co/",
   },
@@ -40,6 +34,13 @@ const projects = [
     tech: ["React", "CSS3", "APIRest"],
     image: "/img-projects/rick&morty.jpg",
     link: "https://rickmorty01app.netlify.app/",
+  },
+    {
+    title: "IA Empresarial",
+    desc: "IA en Python para análisis de datos, generación de insights y reportes gráficos.",
+    tech: ["Python", "Pandas", "IA", "BigQuery"],
+    image: "/images/leads.jpg",
+    link: "#",
   },
 
 ]

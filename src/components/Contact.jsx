@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-linear-to-b from-[#020d31] to-black px-6 py-20">
+    <section id="contact" className="min-h-screen flex items-center justify-center bg-linear-to-b from-[#020d31] to-black px-6 py-20">
       
       <div className="w-full max-w-2xl bg-white/5 backdrop-blur-lg border border-blue-500/30 rounded-2xl p-10 shadow-[0_0_40px_rgba(0,240,255,0.1)]">
 

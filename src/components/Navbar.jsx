@@ -38,7 +38,7 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-neon transition">
             Proyectos
           </a>
-          <a href="#Contact" className="hover:text-neon transition">
+          <a href="#contact" className="hover:text-neon transition">
             Contacto
           </a>
         </div>

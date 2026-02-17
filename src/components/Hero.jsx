@@ -35,8 +35,7 @@ export default function Hero() {
         
         
         <a
-          href="#Projects"
-          download
+          href="#projects"
           className="mr-8 relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-semibold rounded-xl group bg-[#020d31] border border-[#00f0ff] shadow-[0_0_12px_#00f0ff] transition-all duration-300"
         >
           {/* Fondo animado hover */}

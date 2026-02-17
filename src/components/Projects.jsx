@@ -30,17 +30,17 @@ const projects = [
   },
   {
     title: "Rick & Morty App",
-    desc: "Ejercicio de consumo de APIRest a personajes de la serie televisiva Rick & Morty con useEfect y useState",
+    desc: "Ejercicio de consumo de APIRest a personajes de la serie animada Rick & Morty con useEfect y useState",
     tech: ["React", "CSS3", "APIRest"],
     image: "/img-projects/rick&morty.jpg",
     link: "https://rickmorty01app.netlify.app/",
   },
     {
-    title: "IA Empresarial",
-    desc: "IA en Python para análisis de datos, generación de insights y reportes gráficos.",
-    tech: ["Python", "Pandas", "IA", "BigQuery"],
-    image: "/images/leads.jpg",
-    link: "#",
+    title: "Informes Contables",
+    desc: "Automatización realizada para Enercer S.A E.S.P con conexión de base de datos World Office a looker studio por medio de script de Python, Bigquery para visualización de datos, informes y analisis.",
+    tech: ["Python", "SQL", "Looker Studio", "BigQuery"],
+    image: "/img-projects/u32.jpg",
+    link: "null",
   },
 
 ]

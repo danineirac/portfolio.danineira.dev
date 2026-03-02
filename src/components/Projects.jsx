@@ -1,6 +1,13 @@
 const projects = [
 
-    {
+  {
+    title: "Mujer Origen",
+    desc: "Landing Page diseñada para el evento Mujer Origen by Danna Neira, que se estará realizando el 11 de abril de 2026",
+    tech: ["React", "Tailwind", "Framer Motion", "CSS"],
+    image: "/img-projects/mujerorigen.jpg",
+    link: "https://mujer-origen.vercel.app/",
+  },
+  {
     title: "Biodiversidad",
     desc: "Desarrollo Web realizado en BootCamp Talento Tech, acerca de la Biodiversidad de Boyacá y Cundinamarca, con Consumo de Api de especies y mapa interactivo de Colombia",
     tech: ["Python", "FastApi", "Bootstrap", "HTML5", "Javascript"],
@@ -10,7 +17,7 @@ const projects = [
   {
     title: "Portafolio Personal",
     desc: "Portafolio personal moderno con React, Tailwind y diseño futurista.",
-    tech: ["Power BI", "Dax", "Visual Basic", "Macros"],
+    tech: ["React", "Vite", "Tailwind", "CSS"],
     image: "/img-projects/portfolio.jpg",
     link: "https://portfolio-danineira-dev.vercel.app/",
   },

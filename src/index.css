@@ -20,3 +20,22 @@ body {
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
 }
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulseEnergy {
+  0%,100% { opacity: .25; filter: blur(0px); }
+  50% { opacity: .4; filter: blur(1px); }
+}
+
+.spin-slow {
+  animation: spinSlow 120s linear infinite;
+  will-change: transform;
+}
+
+.pulse-energy {
+  animation: pulseEnergy 6s ease-in-out infinite;
+}

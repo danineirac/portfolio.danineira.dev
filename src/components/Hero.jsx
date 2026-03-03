@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react"
+import TechSphere from "./TechSphere"
+
+
 
 
 export default function Hero() {
   const [visible, setVisible] = useState(false)
+  const [activeSphere, setActiveSphere] = useState(false)
 
   useEffect(() => {
     setVisible(true)
@@ -13,6 +17,8 @@ export default function Hero() {
       id="home"
       className="h-screen flex items-center justify-center relative overflow-hidden"
     >
+
+      <TechSphere active={activeSphere} />
       
      <div className="absolute w-96 h-96 bg-neon/20 blur-3xl rounded-full" />
 
@@ -36,6 +42,8 @@ export default function Hero() {
         
         <a
           href="#projects"
+          onMouseEnter={() => setActiveSphere(true)}
+          onMouseLeave={() => setActiveSphere(false)}
           className="mr-8 relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-semibold rounded-xl group bg-[#020d31] border border-[#00f0ff] shadow-[0_0_12px_#00f0ff] transition-all duration-300"
         >
           {/* Fondo animado hover */}
@@ -49,6 +57,8 @@ export default function Hero() {
 
         <a
           href="/Dani_Neira_CV_v2.pdf"
+          onMouseEnter={() => setActiveSphere(true)}
+          onMouseLeave={() => setActiveSphere(false)}
           download
           className="relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-semibold rounded-xl group bg-[#020d31] border border-[#00f0ff] shadow-[0_0_12px_#00f0ff] transition-all duration-300"
         >
@@ -60,6 +70,8 @@ export default function Hero() {
             Descargar CV
           </span>
         </a>
+
+        
 
       </div>
     </section>
